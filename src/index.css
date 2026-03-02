@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@utility text-trim {
+  text-box: trim-both cap alphabetic;
+}
+@theme {
+  --font-instrument: 'Instrument Sans', sans-serif;
+  --font-geist: 'Geist Mono', monospace;
+}
+
+#root {
+  @apply font-geist
+}
