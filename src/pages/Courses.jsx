@@ -9,7 +9,7 @@ export default function Courses(){
             </div>
             <div className="grid grid-cols-4 grid-rows-1 gap-4 auto-rows-fr">
                 {courses.map((course, index) => (
-                    <div key={index} className="relative flex flex-col gap-4 border p-7">
+                    <div key={index} className="relative flex flex-col gap-4 border p-7 rounded-3xl overflow-clip">
                         <h1 className="text-2xl font-instrument font-bold">{course.judul}</h1>
                         <p className="text-sm">{course.deskripsi}</p>
                         <div className="h-45 flex flex-col gap-2">
